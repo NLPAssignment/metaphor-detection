@@ -32,6 +32,11 @@ def parse_file(filepath, folder="parser"):
 
 if __name__ == "__main__":
     sentence = raw_input("Enter a sentence to parse: ")
-    parsed_output = parse(sentence)
+    folder = raw_input("Enter folder path where parser is located (should have lexparser.sh, leave empty for default): ")
+
+    if folder == "":
+        parsed_output = parse(sentence)
+    else:
+        parsed_output = parse(sentence, folder)
     print "\nConstituency parse\n{0}".format(parsed_output[0])
     print "\nDependency parse\n{0}".format(parsed_output[1])
