@@ -16,4 +16,7 @@ for i in parser_out:
 		line=i.strip()
 		dependency_parse.append(filter(lambda x:x.isalpha(),re.findall(r"[\w']+", line)))
 		
+
+
+
 print dependency_parse
