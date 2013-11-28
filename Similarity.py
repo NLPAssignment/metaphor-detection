@@ -5,9 +5,9 @@ def detect_metaphor(sentence):
     """ Accepts a sentence and outputs similarity of noun-noun pairs related by nsubj
     """
 
-    dep_parse_output = dependency_parse(sentence)
+    dep_parse_output, noun_list = dependency_parse(sentence)
 
-    nsubj_pairs = [ns_parse[1:] for ns_parse in filter(lambda dp: dp[0] == "nsubj", dep_parse_output)]
+    nsubj_pairs = [ns_parse[1:] for ns_parse in filter(lambda dp: dp[0] == "nsubj" and dp[1] in noun_list and dp[2] in noun_list, dep_parse_output)]
 
     for pair in nsubj_pairs:
         print "\nInvestigating metaphor for pair {0}".format(pair)

@@ -1,0 +1,36 @@
+For metaphors:
+1: Thief, time = 0.0833333333333
+2: Proper noun
+3: Authority, chair = 0.0625
+4: prison, home = 0.125
+5: pot, America = 0.0714
+6: Pronoun
+7: Pronoun
+8: ocean, love: 0.0909
+9: dream, life: 0.11111
+10: music, noise: 0.08333
+11: rock, father: 0.08333
+12: dressmaker, Time: 0.08333
+13: furnace, streets: 0.1 (Double metaphor, second half was not detected as nsubj)
+14: hunter, heart: 0.06667
+15: handkerchief, sky: 0.0909
+16: alchemist, Love: 0.08333
+17: bullets, words: 0.0625
+18: map, Language: 0.0909
+19: woman, Memory: 0.08333
+20: card, Love: 0.07692 ("wild card" sense absent in 'card')
+21: show, life: 0.0833
+22: area, room: 0.1111
+23: roses, children: 0.1111
+24: cancer, woman: 0.05556
+25: flowers, Kisses: 0.06667
+26: "fireflies" is tagged as adjective
+27: Band-Aid not picked up by noun listing function (because of the hyphen)
+28: shackle, cast: 0.1
+29: blood, money: 0.0833 (Second metaphor not detected due to epic fail from Stanford parser)
+30: flower, promise: 0.0714
+31: iron, heart: 0.0714
+32: circus, fair: 0.0769 (Second metaphor detected but it has a proper noun)
+33: Pronoun
+34: prayer, child: 0.07692
+35: house, plan: 0.0714
