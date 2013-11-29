@@ -19,8 +19,8 @@ For metaphors:
 18: map, Language: 0.0909
 19: woman, Memory: 0.08333
 20: card, Love: 0.07692 ("wild card" sense absent in 'card')
-21: show, life: 0.0833
-22: area, room: 0.1111
+21: show, life: 0.0909
+22: area, room: 0.5
 23: roses, children: 0.1111
 24: cancer, woman: 0.05556
 25: flowers, Kisses: 0.06667
@@ -47,4 +47,49 @@ For metaphors:
 46: Pronoun
 
 For non-metaphors:
-
+1: menace, Time: 0.1
+2: Proper Noun
+3: No Noun-Noun nsubj detected (Correct behaviour)
+4: space, home: 0.125
+5: nation, America: 0.0588
+6: Pronoun
+7: Pronoun
+8: ocean, south (!): None
+9: experience, Life: 0.1111
+10: music, song: 0.33333
+11: man, father: 0.1111
+12: dressmaker, mother: 0.08333
+13: executioner, peon: 0.125
+14: hunter, son: 0.1428
+15: handkerchief, cloth: 0.3333
+16: feeling, Love: 0.3333
+17: "utterances" was tagged as a Gerund
+18: indication, Language: 0.3333
+19: phenomenon, Memory: 0.1
+20: secret, Love: 0.1
+21: opportunity, life: 0.25
+22: area, room: 0.5
+23: boys, children: 0.2
+24: destroyer, woman: 0.2
+25: symbols, Kisses: 0.1
+26: Example pending
+27: arrangement, answer: 0.1428
+28: impediment, cast: 0.0625
+29: component, money: 0.0769
+30: one, promise: None
+31: No Noun-Noun nsubj detected (Correct behaviour)
+32: travesty, fair: 0.0909; Proper Noun
+33: Pronoun
+34: prayer, mass: 0.1667
+35: example, plan: 0.2
+36: opportunity, interview: 0.0714
+37: Example pending
+38: dinosaur, animal: 0.1428
+39: music, Trance: MUSIC SENSE OF TRANCE ABSENT FROM WORDNET WTF
+40: Proper Noun
+41: bayonet, weapon: 0.3333
+42: emotion, hope: 0.2
+43: weapons, Swords: 0.5
+44: set, test: 0.11111
+45: marks, scars: 0.08333 or 1.0 depending on sense chosen
+46: Pronoun

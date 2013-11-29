@@ -20,10 +20,8 @@ def dependency_parse(sentence):
     regex_pattern = r"\(NN (\w+)\)"
     NN_list = re.findall(r"\(NN (\w+)\)", const_parse)
     NNS_list = re.findall(r"\(NNS (\w+)\)", const_parse)
-    NNP_list = re.findall(r"\(NNP (\w+)\)", const_parse)
-    NNPS_list = re.findall(r"\(NNPS (\w+)\)", const_parse)
 
-    noun_list = NN_list + NNS_list + NNP_list + NNPS_list
+    noun_list = NN_list + NNS_list
 
     # Dependency parse
     dep_parse = parse_output[1].split("\n")
