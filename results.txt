@@ -34,3 +34,17 @@ For metaphors:
 33: Pronoun
 34: prayer, child: 0.07692
 35: house, plan: 0.0714
+36: ladder, interview: 0.05556
+37: river, hair: 0.0909
+38: dinosaur, computer: 0.06667
+39: music, Laughter: 0.11111
+40: Proper Noun
+41: bayonet, blade: 0.0769
+42: seed, hope: 0.05882
+43: weapons, words: 0.0714
+44: walk, test: 0.1
+45: roadmap, scars: No sense found for "roadmap"
+46: Pronoun
+
+For non-metaphors:
+
