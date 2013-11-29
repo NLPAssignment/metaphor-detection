@@ -1,50 +1,43 @@
 For metaphors:
-1: Thief, time = 0.0833333333333
-2: Proper noun
-3: Authority, chair = 0.0625
-4: prison, home = 0.125
-5: pot, America = 0.0714
-6: Pronoun
-7: Pronoun
-8: ocean, love: 0.0909
-9: dream, life: 0.11111
-10: music, noise: 0.08333
-11: rock, father: 0.08333
-12: dressmaker, Time: 0.08333
-13: furnace, streets: 0.1 (Double metaphor, second half was not detected as nsubj)
-14: hunter, heart: 0.06667
-15: handkerchief, sky: 0.0909
-16: alchemist, Love: 0.08333
-17: bullets, words: 0.0625
-18: map, Language: 0.0909
-19: woman, Memory: 0.08333
-20: card, Love: 0.07692 ("wild card" sense absent in 'card')
-21: show, life: 0.0909
-22: area, room: 0.5
-23: roses, children: 0.1111
-24: cancer, woman: 0.05556
-25: flowers, Kisses: 0.06667
-26: "fireflies" is tagged as adjective
-27: Band-Aid not picked up by noun listing function (because of the hyphen)
-28: shackle, cast: 0.1
-29: blood, money: 0.0833 (Second metaphor not detected due to epic fail from Stanford parser)
-30: flower, promise: 0.0714
-31: iron, heart: 0.0714
-32: circus, fair: 0.0769 (Second metaphor detected but it has a proper noun)
-33: Pronoun
-34: prayer, child: 0.07692
-35: house, plan: 0.0714
-36: ladder, interview: 0.05556
-37: river, hair: 0.0909
-38: dinosaur, computer: 0.06667
-39: music, Laughter: 0.11111
-40: Proper Noun
-41: bayonet, blade: 0.0769
-42: seed, hope: 0.05882
-43: weapons, words: 0.0714
-44: walk, test: 0.1
-45: roadmap, scars: No sense found for "roadmap"
-46: Pronoun
+1: Thief, time: CORRECT
+2: Authority, chair: CORRECT
+3: prison, home: CORRECT
+4: ocean, love: CORRECT
+5: dream, life: INCORRECT
+6: music, noise: CORRECT
+7: rock, father: CORRECT
+8: dressmaker, Time: CORRECT
+9: furnace, streets: INCORRECT [Similarity 0.1, plus a second metaphor wasn't detected at all]
+10: hunter, heart: CORRECT
+11: handkerchief, sky: CORRECT
+12: alchemist, Love: CORRECT
+13: bullets, words: CORRECT
+14: map, Language: CORRECT
+15: woman, Memory: CORRECT
+16: card, Love: CORRECT
+17: show, life: INCORRECT
+18: area, room: INCORRECT
+19: roses, children: INCORRECT
+20: cancer, woman: CORRECT
+21: flowers, Kisses: CORRECT
+22: INCORRECT ["fireflies" is tagged as adjective]
+23: INCORRECT [Band-Aid not picked up by noun listing function (because of the hyphen)]
+24: shackle, cast: INCORRECT
+25: blood, money: CORRECT [Second metaphor not detected due to epic fail from Stanford parser]
+26: flower, promise: CORRECT
+27: iron, heart: CORRECT
+28: circus, fair: INCORRECT
+29: prayer, child: CORRECT
+30: house, plan: CORRECT
+31: ladder, interview: CORRECT
+32: river, hair: CORRECT
+33: dinosaur, computer: CORRECT
+34: music, Laughter: INCORRECT
+35: bayonet, blade: CORRECT
+36: seed, hope: CORRECT
+37: weapons, words: CORRECT
+38: walk, test: INCORRECT
+39: roadmap, scars: INCORRECT
 
 For non-metaphors:
 1: menace, Time: 0.1

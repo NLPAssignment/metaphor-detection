@@ -5,7 +5,7 @@ def detect_metaphor(sentence):
     """ Accepts a sentence and outputs similarity of noun-noun pairs related by nsubj
     """
 
-    dep_parse_output, noun_list = dependency_parse(sentence)
+    dep_parse_output, noun_list = dependency_parse(sentence.lower())
 
     nsubj_pairs = [ns_parse[1:] for ns_parse in filter(lambda dp: dp[0] == "nsubj" and dp[1] in noun_list and dp[2] in noun_list, dep_parse_output)]
 
@@ -25,7 +25,14 @@ def detect_metaphor(sentence):
             syn_pair.append(synsets[chosen_id])
 
         similarity_measure = similarity(syn_pair[0], syn_pair[1])
-        print "Similarity is {0}".format(similarity_measure)
+
+        if similarity_measure is None or similarity_measure >= 0.1:
+            print "{0} does NOT constitute a Noun-Noun metaphor, similarity {1}".format(pair, similarity_measure)
+        else:
+            print "{0} constitutes a Noun-Noun metaphor, similarity {1}".format(pair, similarity_measure)
+
+    if len(nsubj_pairs) == 0:
+        print "No Noun-Noun pairs detected. Thus the sentence is not a Noun-Noun metaphor"
 
 def similarity(synset1, synset2):
     """ Accepts 2 synsets and returns the similarity
@@ -37,27 +44,3 @@ if __name__ == "__main__":
     sentence = raw_input("Enter a sentence: ")
 
     detect_metaphor(sentence)
-
-# word1 = wn.synsets('children')
-# word2 = wn.synsets('babies')
-# max_sim = 0
-# max_sim_w1=""
-# max_sim_w2=""
-# for w1 in word1:
-#     for w2 in word2:
-#         sim = w1.path_similarity(w2)
-# 	#sim = w1.lch_similarity(w2)
-# 	#sim = w1.wup_similarity(w2)
-# 	#sim = w1.res_similarity(w2,corpus)
-# 	#sim = w1.jcn_similarity(w2,corpus)
-# 	#sim = w1.lin_similarity(w2,corpus)
-		
-# 	if max_sim < sim:
-#             max_sim = sim
-# 	    max_sim_w1=w1
-# 	    max_sim_w2=w2
-
-# print max_sim
-# print max_sim_w1
-# print max_sim_w2
-
