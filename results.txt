@@ -40,49 +40,42 @@ For metaphors:
 39: roadmap, scars: INCORRECT
 
 For non-metaphors:
-1: menace, Time: 0.1
-2: Proper Noun
-3: No Noun-Noun nsubj detected (Correct behaviour)
-4: space, home: 0.125
-5: nation, America: 0.0588
-6: Pronoun
-7: Pronoun
-8: ocean, south (!): None
-9: experience, Life: 0.1111
-10: music, song: 0.33333
-11: man, father: 0.1111
-12: dressmaker, mother: 0.08333
-13: executioner, peon: 0.125
-14: hunter, son: 0.1428
-15: handkerchief, cloth: 0.3333
-16: feeling, Love: 0.3333
-17: "utterances" was tagged as a Gerund
-18: indication, Language: 0.3333
-19: phenomenon, Memory: 0.1
-20: secret, Love: 0.1
-21: opportunity, life: 0.25
-22: area, room: 0.5
-23: boys, children: 0.2
-24: destroyer, woman: 0.2
-25: symbols, Kisses: 0.1
-26: Example pending
-27: arrangement, answer: 0.1428
-28: impediment, cast: 0.0625
-29: component, money: 0.0769
-30: one, promise: None
-31: No Noun-Noun nsubj detected (Correct behaviour)
-32: travesty, fair: 0.0909; Proper Noun
-33: Pronoun
-34: prayer, mass: 0.1667
-35: example, plan: 0.2
-36: opportunity, interview: 0.0714
-37: Example pending
-38: dinosaur, animal: 0.1428
-39: music, Trance: MUSIC SENSE OF TRANCE ABSENT FROM WORDNET WTF
-40: Proper Noun
-41: bayonet, weapon: 0.3333
-42: emotion, hope: 0.2
-43: weapons, Swords: 0.5
-44: set, test: 0.11111
-45: marks, scars: 0.08333 or 1.0 depending on sense chosen
-46: Pronoun
+1: menace, Time: CORRECT
+2: CORRECT
+3: space, home: CORRECT
+4: ocean, south: CORRECT [but dodgy, nsubj was detected between ocean and south as "The water body south" got expanded to DT NN NN NN]
+5: experience, life: CORRECT
+6: music, song: CORRECT
+7: man, father: CORRECT
+8: dressmaker, mother: INCORRECT
+9: executioner, peon: CORRECT
+10: hunter, son: CORRECT
+11: handkerchief, cloth: CORRECT
+12: feeling, Love: CORRECT
+13: CORRECT [but dodgy, "utterances" was tagged as a Gerund]
+14: indication, Language: CORRECT
+15: phenomenon, Memory: CORRECT
+16: secret, Love: CORRECT
+17: opportunity, life: CORRECT
+18: area, room: CORRECT
+19: boys, children: CORRECT
+20: destroyer, woman: CORRECT
+21: symbols, Kisses: CORRECT
+22: arrangement, answer: CORRECT
+23: impediment, cast: CORRECT
+24: component, money: INCORRECT
+25: CORRECT [Similarity None]
+26: CORRECT
+27: travesty, fair: INCORRECT
+28: prayer, mass: CORRECT
+29: example, plan: CORRECT
+30: opportunity, interview: INCORRECT
+31: dinosaur, animal: CORRECT
+32: music, Trance: INCORRECT [MUSIC SENSE OF TRANCE ABSENT FROM WORDNET WTF]
+33: bayonet, weapon: CORRECT
+34: emotion, hope: CORRECT
+35: weapons, Swords: CORRECT
+36: set, test: INCORRECT
+37: marks, scars: INCORRECT
+38: password, name: CORRECT
+39: instrument, guitar: CORRECT

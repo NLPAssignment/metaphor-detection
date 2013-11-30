@@ -1,10 +1,6 @@
 Time is a menace.
--- Removed proper noun
 Authority is like a chair, it needs legs to stand up.
 Her home was an enclosed space.
-America is a vast nation.
--- Removed pronoun
--- Removed pronoun
 The water body south of India is an ocean.
 Life is an experience.
 The song is music to her ears.
@@ -12,8 +8,8 @@ My father is a big man.
 My mother is a dressmaker specializing in alterations.
 The peon was an executioner.
 But my son is a lonely hunter who hunts on a lonely hill.
-The cloth on the table is a handkerchief.
-Love is a feeling that can transmute poison into food.
+The cloth on the table is my handkerchief.
+Love is a feeling that can create happiness.
 Men's words are utterances that their enemies take up and make use of against them.
 Language is an indication of a culture.
 Memory is a crazy phenomenon.
@@ -23,24 +19,21 @@ The typical teenage boy's room is a messy area.
 The children were boys grown in concrete gardens, beautiful and forlorn.
 That woman is the destroyer of my dreams and aspirations.
 Kisses are the symbols of love.
-Her eyes were fireflies. --??
 John's answer to the problem was just a temporary arrangement, not a solution.
 The cast on Michael's broken leg was a painful impediment.
 In capitalism, money is the most important component of society and charity is a major requirement.
 The promise between us was a delicate one.
 The door to Janet's house was made of cold iron.
 The job fair was a travesty and John was a participant in it.
--- Removed pronoun
 The Sunday mass was our lone prayer.
 Katie's plan to get into college was an example of terrible execution.
 The job interview was an opportunity.
--- Add better example
 The animal the bones belonged to was an old dinosaur.
 Trance is the music of the DJs.
--- Removed proper noun
 Each weapon of the army was a bayonet pointed firmly at our base.
 Her hope was a fragile emotion.
 Swords are the weapons with which we wound.
 The test was a set of very easy questions.
 They say that scars are marks on the body.
--- Removed pronoun
+Her last name is the password to my mail account.
+His guitar is an amazing instrument.
